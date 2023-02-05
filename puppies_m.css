@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    /* background: green; */
+}
+.container h1{
+    font-size: 5rem;
+    color: #f5a386;
+    letter-spacing: 4px;
+    font-style: oblique;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: serif;
+}
+.deviz{
+    text-align: center;
+    font-size: 2rem;
+    color: #285a5b;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: serif;
+    height: 43px;
+    position: relative;
+    bottom: 10px;
+}
+.menu a{
+    color: #ff4040;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: serif;
+    font-weight: 600;
+    border-top: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    display: block;
+    height: 60px;
+    margin: auto;
+    padding-top: 18px;
+    
+}
+.menu a:hover{
+    color: #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    padding-top: 50px;
+}
+/* .down{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+
+}
+.both{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(102, 102, 102);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    transform: rotate(45deg);
+    margin: auto;
+    
+}
+.both1{
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    right: 50%;
+}
+.both2{
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    right: 50%;
+} */
+
+/* .down::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(102, 102, 102);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: rotate(45deg);
+} */
+/* .down:hover{
+    background: #7d7b79;
+}
+.down:hover::after{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+} */
+
+/* .aa{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+} */
+/* Конец header */
+
+/* Начало biography */
+
+
+.tituls{
+    width: 1200px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.pomet{
+    color: rgb(29, 159, 214);
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: serif;
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+h2{
+    color: #f5a386;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: serif;
+    font-style: oblique;
+}
+h3, h4, h5{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-family: serif;
+    font-style: oblique;
+}
+.approved{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.number p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: 700;
+}
+.number .first{
+    margin-top: 80px;
+    font-size: 2.5rem;
+    font-family: serif;
+    font-style: oblique;
+}
+.wons{
+    color: #ff4040;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: serif;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-weight: 600;
+}
+.wons_first{
+    margin-top: 20px;
+}
+
+hr{
+    
+    margin: 30px 0px;
+}
+
+
+/* Конец biography */
+
+/* Начало nav */
+
+.container900{
+    width: 1200px;
+    margin: auto;
+    /* padding-top: 20px; */
+}
+/* .container900 p{
+    margin-top: 50px;
+    color: rgb(29, 159, 214);
+    /* font-weight: 700; */
+.container900 table{
+    
+    width: 1200px;
+    margin: auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 350px;
+    font-size: 1.5rem;
+    font-family: serif;
+    font-style: oblique;
+    color: rgb(24, 24, 24);
+    
+}
+.container900 td{
+    text-align: center;
+    border: 1px solid #000;
+}
+/* .bold{
+    font-weight: 700;
+} */
+.container900 p{
+    margin-top: 50px;
+    text-align: left;
+    font-family: serif;
+    font-style: oblique;
+    color: rgb(29, 159, 214);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/* Конец nav */
+
+
+/* Начало .photo1row */
+
+    .photo1row{
+        width: 1500px;
+        margin: auto;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 700px 700px;
+        gap: 25px;
+    }
+    
+    .small{
+        width: 700px;
+        /* height: 447px; */
+    }
+    .small:hover{
+        opacity: 0.8;
+    }
+    .rent{
+        color: rgb(29, 159, 214);
+    }
+/* Конец photo1row */
+
+/* Начало footer */
+
+.tele{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+    background: url(../img/sprite2.png) no-repeat;
+    /* margin-top: 64px; */
+}
+.media{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: auto;
+    list-style: none;
+}
+.mail{
+    background-position: -128px 0;
+}
+.watsup{
+    background-position: -64px 0;
+}
+.vk{
+    background-position: -192px 0;
+}
+
+/* Конец footer */

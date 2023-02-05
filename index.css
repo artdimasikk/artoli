@@ -1,0 +1,222 @@
+/* Начало header */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    /* background: green; */
+}
+.container h1{
+    font-size: 5rem;
+    color: #f5a386;
+    letter-spacing: 4px;
+    font-style: oblique;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: serif;
+}
+.deviz{
+    text-align: center;
+    font-size: 2rem;
+    color: #285a5b;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: serif;
+    height: 43px;
+    position: relative;
+    bottom: 10px;
+}
+.menu a{
+    color: #ff4040;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: serif;
+    font-weight: 600;
+    border-top: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    display: block;
+    height: 60px;
+    margin: auto;
+    padding-top: 18px;
+    
+}
+.menu a:hover{
+    color: #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    padding-top: 50px;
+}
+.down{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+    /* transition: all .4s .1s linear; */
+    /* border: 1px solid #000; */
+    transition-duration: 5s;
+}
+.both{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(102, 102, 102);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    transform: rotate(45deg);
+    margin: auto;
+    /* transition: all .4s .1s linear; */
+}
+.both1{
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    right: 50%;
+}
+.both2{
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    right: 50%;
+}
+
+/* .down::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(102, 102, 102);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: rotate(45deg);
+} */
+/* .down:hover{
+    background: #7d7b79;
+}
+.down:hover::after{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+} */
+
+/* .aa{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+} */
+/* Конец header */
+
+
+
+
+
+
+
+/* Начало photo */
+.nika{
+    width: 1200px;
+    margin: auto;
+    height: 515px;
+}
+/* Конец photo */
+
+
+
+
+
+/* Начало main */
+.about{
+    background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+   
+}
+
+.text{
+    width: 800px;
+    margin: auto;
+}
+
+.welcome{
+    text-align: justify;
+    font-family: sFreeMono, monospace;
+    font-size: 1.7rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #7a533d;
+}
+.text h2{
+    text-align: right;
+    color: #7a533d;
+    font-family: sFreeMono, monospace;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.text h3{
+    text-align: right;
+    color: #7a533d;
+    font-family: sFreeMono, monospace;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+
+.tele{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+    background: url(../img/sprite2.png) no-repeat;
+    /* margin-top: 64px; */
+}
+.media{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: auto;
+    list-style: none;
+}
+.mail{
+    background-position: -128px 0;
+}
+.watsup{
+    background-position: -64px 0;
+}
+.vk{
+    background-position: -192px 0;
+}
+
+
+/* Конец main */

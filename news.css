@@ -76,7 +76,7 @@
 }
 
 .pomet{
-    color: rgb(24, 24, 24);
+    color: rgb(29, 159, 214);
     font-size: 2.5rem;
     font-family: serif;
     text-align: justify;
@@ -86,11 +86,11 @@
     text-align: center;
 }
 .pomet a{
-    color: rgb(24, 24, 24);
     text-decoration: none;
+    color: rgb(29, 159, 214);
 }
 .pomet a:hover{
-    color: rgb(29, 159, 214);
+    color: #ff4040;
 }
 
 

@@ -150,7 +150,7 @@ h2{
     padding-right: 60px;
     text-align: justify;
     font-family: sFreeMono, monospace;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #7a533d;
 }
 
@@ -201,7 +201,10 @@ h2{
     color: #7a533d;
     font-size: 1.3rem;
     padding: 20px 0;
+    
 }
+   
+
 .tele{
     display: flex;
     list-style: none;

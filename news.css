@@ -112,7 +112,7 @@
 .icon{
     width: 64px;
     height: 64px;
-    background: url(../img/sprite2.png) no-repeat;
+    background: url(./img/sprite2.png) no-repeat;
     /* margin-top: 64px; */
 }
 .media{

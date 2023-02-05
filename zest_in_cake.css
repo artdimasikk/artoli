@@ -284,13 +284,13 @@ h4, h5, h6{
 }
 .slider .slick-arrow.slick-prev{
     left: 0;
-    background: url('img/prev1.svg') no-repeat;
+    background: url('./img/prev1.svg') no-repeat;
     border: 0px solid #000;
     /* background-color: rgb(255, 255, 255); */
 }
 .slider .slick-arrow.slick-next{
     right: 0px;
-    background: url('img/next1.svg') no-repeat;
+    background: url('./img/next1.svg') no-repeat;
     border: 0px solid rgb(0, 0, 0);
     /* background-color: rgb(255, 255, 255); */
 }
@@ -363,7 +363,7 @@ h4, h5, h6{
 .icon{
     width: 64px;
     height: 64px;
-    background: url(../img/sprite2.png) no-repeat;
+    background: url(./img/sprite2.png) no-repeat;
     /* margin-top: 64px; */
 }
 .media{

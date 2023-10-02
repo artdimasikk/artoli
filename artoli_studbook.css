@@ -1,0 +1,506 @@
+@media (max-width: 374px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 321px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 2.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 321px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Начало biography */
+    
+    
+    .tituls{
+        width: 321px;
+        margin: auto;
+    }
+    
+    .pomet{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    
+    
+    /* Конец biography */
+}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 698px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 376px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.6rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 376px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */    
+    
+    /* Начало biography */
+    
+    
+    .tituls{
+        width: 376px;
+        margin: auto;
+    }
+    
+    .pomet{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    
+    
+    /* Конец biography */
+}
+
+
+
+@media (min-width: 698px) and (max-width: 1000px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 700px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.7rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */    
+    
+    /* Начало biography */
+    
+    
+    .tituls{
+        width: 700px;
+        margin: auto;
+    }
+    
+    .pomet{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    
+    
+    /* Конец biography */
+}
+
+
+@media (min-width: 1001px) and (max-width: 1500px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 1000px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 4rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.3rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        
+    }
+
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+
+    
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */    
+    
+    /* Начало biography */
+    
+    
+    .tituls{
+        padding-top: 50px;
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .pomet{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2.3rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    
+    
+    /* Конец biography */
+}
+
+
+@media (min-width: 1501px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    
+    
+    /* Начало header */
+    
+    .container{
+        width: 1200px;
+        margin: auto;
+        /* background: green; */
+    }
+    .container h1{
+        font-size: 5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+    
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: 10px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    /* Конец header */
+    
+    /* Начало biography */
+    
+    
+    .tituls{
+        width: 1200px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    
+    .pomet{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    
+    
+    /* Конец biography */
+}

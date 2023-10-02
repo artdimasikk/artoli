@@ -1,0 +1,888 @@
+            @media (max-width: 374px){
+                *{
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                   
+                }
+                .container{
+                    width: 321px;
+                    margin: auto;
+                    
+                }
+                .container h1{
+                    font-size: 2.5rem;
+                    color: #f5a386;
+                    letter-spacing: 4px;
+                    font-style: oblique;
+                    font-weight: 600;
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 50px;
+                    font-family: serif;
+                }
+
+                .container span{
+                    text-transform: uppercase;
+                }
+
+                .deviz{
+                    text-align: center;
+                    font-size: 1.2rem;
+                    color: #285a5b;
+                    font-style: oblique;
+                    font-weight: 600;
+                    font-family: serif;
+                    height: 43px;
+                    position: relative;
+                    bottom: -20px;
+                }
+                .menu a{
+                    color: #ff4040;
+                    font-size: 0.5rem;
+                    text-decoration: none;
+                    font-style: oblique;
+                    font-family: serif;
+                    font-weight: 600;
+                    display: block;
+                    height: 60px;
+                    margin: auto;
+                    padding-top: 18px;
+                    
+                }
+                .menu{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 321px;
+                    margin: auto;
+                    padding-top: 80px;
+                }
+            
+                .down{
+                   display: none;
+                }
+                .both{
+                    display: none;
+                }
+                .both1{
+                    display: none;
+                }
+                .both2{
+                    display: none;
+                }
+                /* Начало photo */
+                .nika{
+                    margin: auto;
+                    height: 138px;
+                }
+                .nika img{
+                    width: 321px;
+                } 
+                /* Конец photo */
+
+                /* Начало main  */
+                .about{
+                    background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+                }
+                
+                .text{
+                    width: 321px;
+                    margin: auto;
+                }
+                .flag{
+                    text-align: center;
+                }
+                
+                .welcome{
+                    text-align: justify;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    padding: 30px;
+                    color: #7a533d;
+                }
+                .text h2{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                .text h3{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                .tele{
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    width: 300px;
+                    margin: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                .icon{
+                    width: 64px;
+                    height: 64px;
+                    background: url(./img/sprite2.png) no-repeat; 
+                }
+                .media{
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 300px;
+                    margin: auto;
+                    list-style: none;
+                }
+                .mail{
+                    background-position: -128px 0;
+                }
+                .watsup{
+                    background-position: -64px 0;
+                }
+                .vk{
+                    background-position: -192px 0;
+                }
+               
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            /* ///////////_____480px_____//////////  */
+            @media (min-width: 375px) and (max-width: 698px){
+                *{
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                   
+                }
+                .container{
+                    width: 376px;
+                    margin: auto;
+                    
+                }
+                .container h1{
+                    font-size: 3rem;
+                    color: #f5a386;
+                    letter-spacing: 4px;
+                    font-style: oblique;
+                    font-weight: 600;
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 50px;
+                    font-family: serif;
+                }
+
+                .container span{
+                    text-transform: uppercase;
+                }
+
+                .deviz{
+                    text-align: center;
+                    font-size: 1.2rem;
+                    color: #285a5b;
+                    font-style: oblique;
+                    font-weight: 600;
+                    font-family: serif;
+                    height: 43px;
+                    position: relative;
+                    bottom: -20px;
+                }
+                .menu a{
+                    color: #ff4040;
+                    font-size: 0.6rem;
+                    text-decoration: none;
+                    font-style: oblique;
+                    font-family: serif;
+                    font-weight: 600;
+                    display: block;
+                    height: 60px;
+                    margin: auto;
+                    padding-top: 18px;
+                    
+                }
+                .menu{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 376px;
+                    margin: auto;
+                    padding-top: 80px;
+                }
+            
+                .down{
+                   display: none;
+                }
+                .both{
+                    display: none;
+                }
+                .both1{
+                    display: none;
+                }
+                .both2{
+                    display: none;
+                }
+                /* Начало photo */
+                .nika{
+                    margin: auto;
+                    height: 161px;
+                }
+                .nika img{
+                    width: 376px;
+                }
+                /* Конец photo */
+            
+                
+                
+                /* Начало main */
+                .about{
+                    background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+                }
+                
+                .text{
+                    width: 376px;
+                    margin: auto;
+                }
+                .flag{
+                    text-align: center;
+                }
+                
+                .welcome{
+                    text-align: justify;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    padding: 30px;
+                    color: #7a533d;
+                }
+                .text h2{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                .text h3{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                
+                
+                .tele{
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    width: 350px;
+                    margin: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                .icon{
+                    width: 64px;
+                    height: 64px;
+                    background: url(./img/sprite2.png) no-repeat;
+                    /* margin-top: 64px; */
+                }
+                .media{
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 350px;
+                    margin: auto;
+                    list-style: none;
+                }
+                .mail{
+                    background-position: -128px 0;
+                }
+                .watsup{
+                    background-position: -64px 0;
+                }
+                .vk{
+                    background-position: -192px 0;
+                }
+                
+                
+                /* Конец main */
+                
+            }
+                            
+                            
+                            
+            
+            
+            @media (min-width: 699px) and (max-width: 1000px){
+                *{
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                   
+                }
+                .container{
+                    width: 700px;
+                    margin: auto;
+                    
+                }
+                .container h1{
+                    font-size: 3.5rem;
+                    color: #f5a386;
+                    letter-spacing: 4px;
+                    font-style: oblique;
+                    font-weight: 600;
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 50px;
+                    font-family: serif;
+                }
+
+                .container span{
+                    text-transform: uppercase;
+                }
+
+                .deviz{
+                    text-align: center;
+                    font-size: 1.7rem;
+                    color: #285a5b;
+                    font-style: oblique;
+                    font-weight: 600;
+                    font-family: serif;
+                    height: 43px;
+                    position: relative;
+                    bottom: -20px;
+                }
+                .menu a{
+                    color: #ff4040;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    font-style: oblique;
+                    font-family: serif;
+                    font-weight: 600;
+                    display: block;
+                    height: 60px;
+                    margin: auto;
+                    padding-top: 18px;
+                    
+                }
+                .menu{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 700px;
+                    margin: auto;
+                    padding-top: 80px;
+                }
+            
+                .down{
+                   display: none;
+                }
+                .both{
+                    display: none;
+                }
+                .both1{
+                    display: none;
+                }
+                .both2{
+                    display: none;
+                }
+                /* Начало photo */
+                .nika{
+                    margin: auto;
+                    height: 300px;
+                }
+                .nika img{
+                    width: 700px;
+                }
+                /* Конец photo */
+            
+                
+                
+                /* Начало main */
+                .about{
+                    background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+                }
+                
+                .text{
+                    width: 700px;
+                    margin: auto;
+                }
+                .flag{
+                    text-align: center;
+                }
+                
+                .welcome{
+                    text-align: justify;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.2rem;
+                    padding: 30px;
+                    color: #7a533d;
+                }
+                .text h2{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                .text h3{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                
+                
+                .tele{
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    width: 700px;
+                    margin: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                .icon{
+                    width: 64px;
+                    height: 64px;
+                    background: url(./img/sprite2.png) no-repeat;
+                    /* margin-top: 64px; */
+                }
+                .media{
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 500px;
+                    margin: auto;
+                    list-style: none;
+                }
+                .mail{
+                    background-position: -128px 0;
+                }
+                .watsup{
+                    background-position: -64px 0;
+                }
+                .vk{
+                    background-position: -192px 0;
+                }
+                
+                
+                /* Конец main */
+                
+            }
+                            
+          
+                            
+                            /* ///////////_____1281px_____//////////  */
+            @media (min-width: 1001px) and (max-width: 1500px){
+               
+                *{
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                   
+                }
+                .container{
+                    width: 1000px;
+                    margin: auto;
+                    
+                }
+                .container h1{
+                    font-size: 4rem;
+                    color: #f5a386;
+                    letter-spacing: 4px;
+                    font-style: oblique;
+                    font-weight: 600;
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 50px;
+                    font-family: serif;
+                }
+
+                .container span{
+                    text-transform: uppercase;
+                }
+
+                .deviz{
+                    text-align: center;
+                    font-size: 2rem;
+                    color: #285a5b;
+                    font-style: oblique;
+                    font-weight: 600;
+                    font-family: serif;
+                    height: 43px;
+                    position: relative;
+                    bottom: -20px;
+                }
+                .menu a{
+                    color: #ff4040;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    font-style: oblique;
+                    font-family: serif;
+                    font-weight: 600;
+                    display: block;
+                    height: 60px;
+                    margin: auto;
+                    padding-top: 18px;
+                    border-top: 1px solid rgb(102, 102, 102);
+                    border-bottom: 1px solid rgb(102, 102, 102);
+                    
+                }
+
+                .menu a:hover{
+                    color: #000;
+                    border-top: 3px solid #000;
+                    border-bottom: 3px solid #000;
+                }
+                
+                .menu{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 900px;
+                    margin: auto;
+                    padding-top: 80px;
+                }
+            
+                .down{
+                   display: none;
+                }
+                .both{
+                    display: none;
+                }
+                .both1{
+                    display: none;
+                }
+                .both2{
+                    display: none;
+                }
+                /* Начало photo */
+                .nika{
+                    padding-top: 50px;
+                    margin: auto;
+                    height: 478px;
+                }
+                .nika img{
+                    width: 1000px;
+                }
+                /* Конец photo */
+            
+                
+                
+                /* Начало main */
+                .about{
+                    background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+                }
+                
+                .text{
+                    width: 1000px;
+                    margin: auto;
+                }
+                .flag{
+                    text-align: center;
+                }
+                
+                .welcome{
+                    text-align: justify;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.4rem;
+                    padding: 30px;
+                    color: #7a533d;
+                }
+                .text h2{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                .text h3{
+                    text-align: right;
+                    color: #7a533d;
+                    font-family: sFreeMono, monospace;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                    padding-right: 30px;
+                }
+                
+                
+                .tele{
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    margin: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                .icon{
+                    width: 64px;
+                    height: 64px;
+                    background: url(./img/sprite2.png) no-repeat;
+                    /* margin-top: 64px; */
+                }
+                .media{
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 500px;
+                    margin: auto;
+                    list-style: none;
+                }
+                .mail{
+                    background-position: -128px 0;
+                }
+                .watsup{
+                    background-position: -64px 0;
+                }
+                .vk{
+                    background-position: -192px 0;
+                }
+                
+                
+                /* Конец main */
+                
+            }
+
+
+            @media (min-width: 1501px){
+               
+                /* Начало header */
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+               
+            }
+            
+            
+            .container{
+                width: 1200px;
+                margin: auto;
+            }
+            .container h1{
+                font-size: 5rem;
+                color: #f5a386;
+                letter-spacing: 4px;
+                font-style: oblique;
+                font-weight: 600;
+                margin: auto;
+                text-align: center;
+                padding-top: 50px;
+                font-family: serif;
+            }
+
+            .container span{
+                text-transform: uppercase;
+            }
+
+            .deviz{
+                text-align: center;
+                font-size: 2rem;
+                color: #285a5b;
+                font-style: oblique;
+                font-weight: 600;
+                font-family: serif;
+                height: 43px;
+                position: relative;
+                bottom: 10px;
+            }
+            .menu a{
+                color: #ff4040;
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-style: oblique;
+                font-family: serif;
+                font-weight: 600;
+                border-top: 1px solid rgb(102, 102, 102);
+                border-bottom: 1px solid rgb(102, 102, 102);
+                display: block;
+                height: 60px;
+                margin: auto;
+                padding-top: 18px;
+                
+            }
+            .menu a:hover{
+                color: #000;
+                border-top: 3px solid #000;
+                border-bottom: 3px solid #000;
+            }
+            .menu{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                width: 900px;
+                margin: auto;
+                padding-top: 50px;
+            }
+            .down{
+                width: 200px;
+                height: 200px;
+                border: 1px solid rgb(255, 255, 255);
+                margin: auto;
+                display: block;
+                border-radius: 100px;
+                position: relative;
+                /* transition: all .4s .1s linear; */
+                /* border: 1px solid #000; */
+                transition-duration: 5s;
+            }
+            .both{
+                width: 50px;
+                height: 50px;
+                border: 4px solid rgb(102, 102, 102);
+                border-top: 1px solid transparent;
+                border-left: 1px solid transparent;
+                transform: rotate(45deg);
+                margin: auto;
+                /* transition: all .4s .1s linear; */
+            }
+            .both1{
+                position: absolute;
+                top: 370px;
+                left: 50%;
+                right: 50%;
+            }
+            .both2{
+                position: absolute;
+                top: 330px;
+                left: 50%;
+                right: 50%;
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            /* Начало photo */
+            .photo{
+                margin-top: 50px;
+            }
+            
+            .nika{
+                width: 1200px;
+                margin: auto;
+                height: 515px;
+            }
+            /* Конец photo */
+            
+            
+            
+            
+            
+            /* Начало main */
+            .about{
+                background: linear-gradient(to top left, #eec398, 60%, rgb(255, 216, 199), rgb(236, 236, 236));
+               
+            }
+            
+            .text{
+                width: 800px;
+                margin: auto;
+            }
+            .flag{
+                text-align: center;
+            }
+            
+            .welcome{
+                text-align: justify;
+                font-family: sFreeMono, monospace;
+                font-size: 1.7rem;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                color: #7a533d;
+            }
+            .text h2{
+                text-align: right;
+                color: #7a533d;
+                font-family: sFreeMono, monospace;
+                font-size: 1.7rem;
+                font-weight: 400;
+                padding-bottom: 30px;
+            }
+            .text h3{
+                text-align: right;
+                color: #7a533d;
+                font-family: sFreeMono, monospace;
+                font-size: 1.7rem;
+                font-weight: 400;
+                padding-bottom: 30px;
+            }
+            
+            
+            .tele{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                width: 500px;
+                margin: auto;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .icon{
+                width: 64px;
+                height: 64px;
+                background: url(./img/sprite2.png) no-repeat;
+                /* margin-top: 64px; */
+            }
+            .media{
+                padding-top: 60px;
+                padding-bottom: 60px;
+                display: flex;
+                justify-content: space-between;
+                width: 500px;
+                margin: auto;
+                list-style: none;
+            }
+            .mail{
+                background-position: -128px 0;
+            }
+            .watsup{
+                background-position: -64px 0;
+            }
+            .vk{
+                background-position: -192px 0;
+            }
+            
+            
+            /* Конец main */
+            }
+            
+            

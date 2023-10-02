@@ -1,0 +1,1219 @@
+@media (max-width: 374px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 321px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 2.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 321px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+    main{
+        margin: auto;
+        width: 321px;
+    }
+    main img{
+        width: 321px;
+    }
+    .diva a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .diva p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    .kuba{
+        margin-top: 45px;
+    }
+    .kuba a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kuba p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    /* .tet_a_tet{
+        width: 365px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .tet_a_tet img{
+        margin: auto;
+    }
+    .tet_a_tet a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .tet_a_tet p{
+        text-align: center;
+        margin-top: 15px;
+    } */
+    
+    
+    
+    .zest_in_cake{
+        margin-top: 45px;
+    }
+    .zest_in_cake a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zest_in_cake p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .container900{
+        width: 321px;
+    }
+    .whiteshugar{
+        margin-top: 45px;
+    }
+    .whiteshugar a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .whiteshugar p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    
+    .zlatarivera{
+
+        margin-top: 45px;
+    }
+    .zlatarivera a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zlatarivera p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Конец main */
+    
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 300px;
+        margin: auto;
+        font-family: sFreeMono, monospace;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 698px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 376px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.6rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 376px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+    main{
+        margin: auto;
+        width: 376px;
+    }
+    main img{
+        width: 376px;
+    }
+    .diva a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .diva p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    .kuba{
+        margin-top: 45px;
+    }
+    .kuba a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kuba p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    /* .tet_a_tet{
+        width: 365px;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .tet_a_tet img{
+        margin: auto;
+    }
+    .tet_a_tet a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .tet_a_tet p{
+        text-align: center;
+        margin-top: 15px;
+    } */
+    
+    
+    
+    .zest_in_cake{
+        margin-top: 45px;
+    }
+    .zest_in_cake a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zest_in_cake p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .container900{
+        width: 376px;
+    }
+    .whiteshugar{
+        margin-top: 45px;
+    }
+    .whiteshugar a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .whiteshugar p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    
+    .zlatarivera{
+
+        margin-top: 45px;
+    }
+    .zlatarivera a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zlatarivera p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Конец main */
+    
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 350px;
+        margin: auto;
+        font-family: sFreeMono, monospace;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+
+@media (min-width: 699px) and (max-width: 1000px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 700px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.7rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+    main{
+        margin: auto;
+        width: 700px;
+    }
+    main img{
+        width: 700px;
+    }
+    .diva a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .diva p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+    
+
+    
+    
+    .kuba{
+        margin-top: 45px;
+    }
+    .kuba a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kuba p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    .zest_in_cake{
+        margin-top: 45px;
+    }
+    .zest_in_cake a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zest_in_cake p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .container900{
+        width: 700px;
+    }
+    .whiteshugar{
+        margin-top: 45px;
+    }
+    .whiteshugar a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .whiteshugar p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    
+    .zlatarivera{
+
+        margin-top: 45px;
+    }
+    .zlatarivera a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zlatarivera p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Конец main */
+    
+   
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1500px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 1000px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 4rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.3rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        
+    }
+
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+
+    
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+    main{
+        margin: auto;
+        width: 1000px;
+        padding: 50px;
+    }
+    main img{
+        width: 1000px;
+    }
+    .diva a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .diva p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    .kuba{
+        margin-top: 45px;
+    }
+    .kuba a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kuba p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .zest_in_cake{
+        margin-top: 45px;
+    }
+    .zest_in_cake a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zest_in_cake p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .container900{
+        width: 1000px;
+    }
+    .whiteshugar{
+        margin-top: 45px;
+    }
+    .whiteshugar a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .whiteshugar p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+    
+    .zlatarivera{
+
+        margin-top: 45px;
+    }
+    .zlatarivera a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zlatarivera p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Конец main */
+    
+   
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+
+@media (min-width: 1501px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    
+    
+    .container{
+        width: 1200px;
+        margin: auto;
+        /* background: green; */
+    }
+    .container h1{
+        font-size: 5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+    
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: 10px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    
+
+
+    .diva{
+        width: 900px;
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+    .diva img{
+        margin: auto;
+    }
+    .diva a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .diva p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .diva a:hover{
+        color: rgb(29, 159, 214);
+    }
+    
+    .kuba{
+        width: 900px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .kuba img{
+        margin: auto;
+    }
+    .kuba a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kuba p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .kuba a:hover{
+        color: rgb(29, 159, 214);
+    }
+    
+    
+    /* .tet_a_tet{
+        width: 900px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .tet_a_tet img{
+        margin: auto;
+    }
+    .tet_a_tet a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .tet_a_tet p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .tet_a_tet a:hover{
+        color: rgb(29, 159, 214);
+    } */
+    
+    
+    
+    .zest_in_cake{
+        width: 900px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .zest_in_cake img{
+        margin: auto;
+    }
+    .zest_in_cake a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zest_in_cake p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .zest_in_cake a:hover{
+        color: rgb(29, 159, 214);
+    }
+    
+    
+    
+    
+    .container900{
+        width: 900px;
+        margin: auto;
+    }
+    .whiteshugar{
+        width: 683px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .whiteshugar img{
+        margin: auto;
+    }
+    .whiteshugar a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .whiteshugar p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .whiteshugar a:hover{
+        color: rgb(29, 159, 214);
+    }
+    
+    
+    .zlatarivera{
+        width: 683px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .zlatarivera img{
+        margin: auto;
+    }
+    .zlatarivera a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .zlatarivera p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .zlatarivera a:hover{
+        color: rgb(29, 159, 214);
+    }
+
+    
+    /* Конец main */
+    
+    
+    /* Начало footer */
+    
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 400px;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+    
+    /* Конец footer */
+    
+}

@@ -1,0 +1,1625 @@
+@media (max-width: 374px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 321px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 2.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 321px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+
+    .tituls{
+        width: 321px;
+        margin: auto;
+    }
+    h2{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    h3{
+        color: #f5a386;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    h4, h5, h6{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    
+    .wons{
+        color: #ff4040;
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-style: oblique;
+        font-weight: 600;
+    }
+    .wons_first{
+        margin-top: 20px;
+    }
+    .birth{
+        text-align: center;
+        color: rgb(24, 24, 24);
+        font-size: 0.8rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-style: oblique;
+    }
+    .birth_first{
+        margin-top: 30px;
+        font-style: oblique;
+    }
+    
+    /* Конец biography */
+
+     /* Начало container1200 */
+    
+    .container1200{
+        width: 321px;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    .container1200 img{
+        width: 321px;
+        text-align: center;
+    }
+    .opisanie_first{
+        margin-top: 25px;
+    }
+    .opisanie{
+        color: rgb(24, 24, 24);
+        font-size: 0.7rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: sFreeMono, monospace;
+        text-align: justify;
+    }
+    
+    /* Конец container1200 */
+     /* Начало nav */
+    
+    .container900{
+        width: 321px;
+        margin: auto;
+    }
+    .container900 table{
+        
+        width: 321px;
+        margin: auto;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        height: 260px;
+        font-size: 0.7rem;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(24, 24, 24);
+        
+    }
+    .container900 td{
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .container900 p{
+        margin-top: 50px;
+        text-align: left;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(29, 159, 214);
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+    
+    
+    /* Конец nav */
+
+    /* Начало .slider */
+    .wrapper{
+        width: 321px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .slider_item img{
+        width: 321px;
+    }
+    
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list{
+        overflow: hidden;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .slick-arrow{
+        position: absolute;
+        top: 42%;
+        z-index: 10;
+        font-size: 0;
+        width: 15px;
+        height: 25px;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 11px;
+        background: url('./img/prev1.svg') no-repeat;
+        border: 0px solid #000;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 11px;
+        background: url('./img/next1.svg') no-repeat;
+        border: 0px solid rgb(0, 0, 0);
+    }
+    .slider_item{
+        text-align: center;
+    }
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 7px;
+        height: 7px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .slider .slick-dots li.slick-active button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        list-style: none;
+    }
+    /* Конец slider */
+
+    /* Начало .photo$row */
+    
+    .photo1row{
+        width: 321px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    /* .small_width{
+        width: 480px;
+        height: 324px;
+    }
+    .small_height{
+        width: 480px;
+        height: 644px;
+    } */
+    .small{
+        width: 321px;
+        margin: 5px 0;
+    }
+
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 300px;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat; 
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 698px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 376px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 0.6rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 376px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+
+    .tituls{
+        width: 376px;
+        margin: auto;
+    }
+    h2{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    h3{
+        color: #f5a386;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    h4, h5, h6{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    
+    .wons{
+        color: #ff4040;
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-style: oblique;
+        font-weight: 600;
+    }
+    .wons_first{
+        margin-top: 20px;
+    }
+    .birth{
+        text-align: center;
+        color: rgb(24, 24, 24);
+        font-size: 0.8rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-style: oblique;
+    }
+    .birth_first{
+        margin-top: 30px;
+        font-style: oblique;
+    }
+    
+    /* Конец biography */
+
+     /* Начало container1200 */
+    
+     .container1200{
+        width: 376px;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    .container1200 img{
+        width: 376px;
+        text-align: center;
+    }
+    .opisanie_first{
+        margin-top: 25px;
+    }
+    .opisanie{
+        color: rgb(24, 24, 24);
+        font-size: 0.7rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: sFreeMono, monospace;
+        text-align: justify;
+    }
+    
+    /* Конец container1200 */
+
+     /* Начало nav */
+    
+     .container900{
+        width: 376px;
+        margin: auto;
+    }
+    .container900 table{
+        
+        width: 376px;
+        margin: auto;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        height: 260px;
+        font-size: 0.7rem;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(24, 24, 24);
+        
+    }
+    .container900 td{
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .container900 p{
+        margin-top: 50px;
+        text-align: left;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(29, 159, 214);
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+    
+    
+    /* Конец nav */
+
+
+    /* Начало .slider */
+    .wrapper{
+        width: 376px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .slider_item img{
+        width: 365px;
+    }
+    
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list{
+        overflow: hidden;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .slick-arrow{
+        position: absolute;
+        top: 42%;
+        z-index: 10;
+        font-size: 0;
+        width: 15px;
+        height: 25px;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 11px;
+        background: url('./img/prev1.svg') no-repeat;
+        border: 0px solid #000;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 11px;
+        background: url('./img/next1.svg') no-repeat;
+        border: 0px solid rgb(0, 0, 0);
+    }
+    .slider_item{
+        text-align: center;
+    }
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 7px;
+        height: 7px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .slider .slick-dots li.slick-active button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        list-style: none;
+    }
+    /* Конец slider */
+
+
+    /* Начало .photo$row */
+    
+    .photo1row{
+        width: 376px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    /* .small_width{
+        width: 480px;
+        height: 324px;
+    }
+    .small_height{
+        width: 480px;
+        height: 644px;
+    } */
+    .small{
+        width: 376px;
+        margin: 5px 0;
+    }
+
+
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 350px;
+        margin: auto;
+        font-family: sFreeMono, monospace;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+
+
+
+@media (min-width: 699px) and (max-width: 1000px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 700px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 3.5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 1.7rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+
+    .tituls{
+        width: 700px;
+        margin: auto;
+    }
+    h2{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    h3{
+        color: #f5a386;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    h4, h5, h6{
+        text-align: center;
+        font-size: 1.3rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+
+    .wons{
+        color: #ff4040;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-style: oblique;
+        font-weight: 600;
+    }
+    .wons_first{
+        margin-top: 20px;
+    }
+    .birth{
+        text-align: center;
+        color: rgb(24, 24, 24);
+        font-size: 1rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-style: oblique;
+    }
+    .birth_first{
+        margin-top: 30px;
+        font-style: oblique;
+    }
+    
+    /* Конец biography */
+
+     /* Начало container1200 */
+    
+     .container1200{
+        width: 700px;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    .container1200 img{
+        width: 700px;
+        
+    }
+    .opisanie_first{
+        margin-top: 25px;
+    }
+    .opisanie{
+        color: rgb(24, 24, 24);
+        font-size: 1.3rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: sFreeMono, monospace;
+        text-align: justify;
+    }
+    
+    /* Конец container1200 */
+
+     /* Начало nav */
+    
+     .container900{
+        width: 700px;
+        margin: auto;
+    }
+    .container900 table{
+        
+        width: 700px;
+        margin: auto;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        height: 260px;
+        font-size: 1.2rem;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(24, 24, 24);
+        
+    }
+    .container900 td{
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .container900 p{
+        margin-top: 50px;
+        text-align: left;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(29, 159, 214);
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+    
+    
+    /* Конец nav */
+
+
+    /* Начало .slider */
+    .wrapper{
+        width: 700px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .slider_item img{
+        width: 700px;
+    }
+    
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list{
+        overflow: hidden;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .slick-arrow{
+        position: absolute;
+        top: 42%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 11px;
+        background: url('./img/prev1.svg') no-repeat;
+        border: 0px solid #000;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 11px;
+        background: url('./img/next1.svg') no-repeat;
+        border: 0px solid rgb(0, 0, 0);
+    }
+    .slider_item{
+        text-align: center;
+    }
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .slider .slick-dots li.slick-active button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        list-style: none;
+    }
+    /* Конец slider */
+
+
+    /* Начало .photo$row */
+    
+    .photo1row{
+        width: 700px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    /* .small_width{
+        width: 480px;
+        height: 324px;
+    }
+    .small_height{
+        width: 480px;
+        height: 644px;
+    } */
+    .small{
+        width: 700px;
+        margin: 5px 0;
+    }
+
+
+  
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+
+
+@media (min-width: 1001px) and (max-width: 1500px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .container{
+        width: 1000px;
+        margin: auto;
+        
+    }
+    .container h1{
+        font-size: 4rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: -20px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.3rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        
+    }
+
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+
+    
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 80px;
+    }
+
+    .down{
+       display: none;
+    }
+    .both{
+        display: none;
+    }
+    .both1{
+        display: none;
+    }
+    .both2{
+        display: none;
+    }
+    /* Конец header */
+
+
+    .tituls{
+        width: 1000px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    h2{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2.3rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    h3{
+        color: #f5a386;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    h4, h5, h6{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+
+    .wons{
+        color: #ff4040;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-style: oblique;
+        font-weight: 600;
+    }
+    .wons_first{
+        margin-top: 20px;
+    }
+    .birth{
+        text-align: center;
+        color: rgb(24, 24, 24);
+        font-size: 1.3rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-style: oblique;
+    }
+    .birth_first{
+        margin-top: 30px;
+        font-style: oblique;
+    }
+    
+    /* Конец biography */
+
+     /* Начало container1200 */
+    
+     .container1200{
+        width: 1000px;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    .container1200 img{
+        width: 1000px;
+        
+    }
+    .opisanie_first{
+        margin-top: 25px;
+    }
+    .opisanie{
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: sFreeMono, monospace;
+        text-align: justify;
+    }
+    
+    /* Конец container1200 */
+
+     /* Начало nav */
+    
+     .container900{
+        width: 1000px;
+        margin: auto;
+    }
+    .container900 table{
+        
+        width: 1000px;
+        margin: auto;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        height: 260px;
+        font-size: 1.5rem;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(24, 24, 24);
+        
+    }
+    .container900 td{
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .container900 p{
+        margin-top: 50px;
+        text-align: left;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(29, 159, 214);
+        margin-bottom: 20px;
+        font-size: 2.3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+    
+    
+    /* Конец nav */
+
+
+    /* Начало .slider */
+    .wrapper{
+        width: 1000px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .slider_item img{
+        width: 1000px;
+    }
+    
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list{
+        overflow: hidden;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .slick-arrow{
+        position: absolute;
+        top: 42%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 11px;
+        background: url('./img/prev1.svg') no-repeat;
+        border: 0px solid #000;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 11px;
+        background: url('./img/next1.svg') no-repeat;
+        border: 0px solid rgb(0, 0, 0);
+    }
+    .slider_item{
+        text-align: center;
+    }
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .slider .slick-dots li.slick-active button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        list-style: none;
+    }
+    /* Конец slider */
+
+
+    /* Начало .photo$row */
+    
+    .photo1row{
+        width: 1000px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    /* .small_width{
+        width: 480px;
+        height: 324px;
+    }
+    .small_height{
+        width: 480px;
+        height: 644px;
+    } */
+    .small{
+        width: 1000px;
+        margin: 5px 0;
+    }
+
+
+  
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+}
+
+@media (min-width: 1501px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+       
+    }
+    
+    
+    .container{
+        width: 1200px;
+        margin: auto;
+        /* background: green; */
+    }
+    .container h1{
+        font-size: 5rem;
+        color: #f5a386;
+        letter-spacing: 4px;
+        font-style: oblique;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-family: serif;
+    }
+
+    .container span{
+        text-transform: uppercase;
+    }
+    
+    .deviz{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        height: 43px;
+        position: relative;
+        bottom: 10px;
+    }
+    .menu a{
+        color: #ff4040;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-style: oblique;
+        font-family: serif;
+        font-weight: 600;
+        border-top: 1px solid rgb(102, 102, 102);
+        border-bottom: 1px solid rgb(102, 102, 102);
+        display: block;
+        height: 60px;
+        margin: auto;
+        padding-top: 18px;
+        
+    }
+    .menu a:hover{
+        color: #000;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    
+    .tituls{
+        width: 1200px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    h2{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: serif;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    h3{
+        color: #f5a386;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    h4, h5, h6{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: oblique;
+    }
+    
+    .wons{
+        color: #ff4040;
+        text-align: center;
+        font-size: 2.3rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-style: oblique;
+        font-weight: 600;
+    }
+    .wons_first{
+        margin-top: 20px;
+    }
+    .birth{
+        text-align: center;
+        color: rgb(24, 24, 24);
+        font-size: 1.7rem;
+        font-family: serif;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-style: oblique;
+    }
+    .birth_first{
+        margin-top: 30px;
+        font-style: oblique;
+    }
+    
+    /* Конец biography */
+    
+    /* Начало container1200 */
+    
+    .container1200{
+        width: 1200px;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+    .opisanie_first{
+        margin-top: 25px;
+    }
+    .opisanie{
+        color: rgb(24, 24, 24);
+        font-size: 1.7rem;
+        font-family: sFreeMono, monospace;
+        text-align: justify;
+    }
+    
+    /* Конец container1200 */
+    
+    /* Начало nav */
+    
+    .container900{
+        width: 1200px;
+        margin: auto;
+        /* padding-top: 20px; */
+    }
+    /* .container900 p{
+        margin-top: 50px;
+        color: rgb(29, 159, 214);
+        /* font-weight: 700; */
+    .container900 table{
+        
+        width: 1200px;
+        margin: auto;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        height: 350px;
+        font-size: 1.5rem;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(24, 24, 24);
+        
+    }
+    .container900 td{
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bold{
+        font-weight: 700;
+    }
+    .container900 p{
+        margin-top: 50px;
+        text-align: left;
+        font-family: serif;
+        font-style: oblique;
+        color: rgb(29, 159, 214);
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    
+    /* Конец nav */
+    
+    /* Начало .slider */
+    .wrapper{
+        width: 1500px;
+        margin: auto;
+        padding: 30px 0;
+    }
+    
+    /* Лента слайдов */
+    .slick-track{
+        display: flex;
+    }
+    /* Ограничивающая оболочка */
+    .slick-list{
+        overflow: hidden;
+    }
+    .slider{
+        position: relative;
+    }
+    .slider .slick-arrow{
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+    }
+    .slider .slick-arrow.slick-prev{
+        left: 0;
+        background: url('./img/prev1.svg') no-repeat;
+        border: 0px solid #000;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 0px;
+        background: url('./img/next1.svg') no-repeat;
+        border: 0px solid rgb(0, 0, 0);
+    }
+    .slider_item{
+        text-align: center;
+    }
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .slider .slick-dots li.slick-active button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+        list-style: none;
+    }
+    /* Конец slider */
+    
+    
+    /* Начало .photo$row */
+    
+    .photo1row{
+        width: 1500px;
+        margin: auto;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 480px 480px 480px;
+        gap: 25px;
+    }
+    .small_width{
+        width: 480px;
+        height: 324px;
+    }
+    .small_height{
+        width: 480px;
+        height: 644px;
+    }
+    .small:hover{
+        opacity: 0.8;
+    }
+    
+    /* Конец photo$row */
+    
+    /* Начало footer */
+    
+    .tele{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 400px;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon{
+        width: 64px;
+        height: 64px;
+        background: url(./img/sprite2.png) no-repeat;
+        /* margin-top: 64px; */
+    }
+    .media{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin: auto;
+        list-style: none;
+    }
+    .mail{
+        background-position: -128px 0;
+    }
+    .watsup{
+        background-position: -64px 0;
+    }
+    .vk{
+        background-position: -192px 0;
+    }
+    
+    /* Конец footer */
+}

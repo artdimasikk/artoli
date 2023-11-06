@@ -128,6 +128,16 @@
         margin-top: 80px;
     }
 
+    .number__rented-p{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
     .color{
         text-align: center;
         font-size: 1rem;
@@ -208,9 +218,11 @@
         margin: auto;
         margin-top: 20px;
     }
-    .photoflex{
+    .photo1flex{
         width: 321px;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
     /* .small_width{
         width: 480px;
@@ -405,6 +417,16 @@
         margin-top: 80px;
     }
 
+    .number__rented-p{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
     .color{
         text-align: center;
         font-size: 1rem;
@@ -494,9 +516,11 @@
         margin: auto;
         margin-top: 20px;
     }
-    .photoflex{
+    .photo1flex{
         width: 376px;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
     /* .small_width{
         width: 480px;
@@ -687,6 +711,17 @@
         margin-top: 80px;
     }
 
+    .number__rented-p{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+
     .color{
         text-align: center;
         font-size: 1rem;
@@ -776,9 +811,11 @@
         margin: auto;
         margin-top: 20px;
     }
-    .photoflex{
+    .photo1flex{
         width: 700px;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
     /* .small_width{
         width: 480px;
@@ -970,6 +1007,17 @@
         margin-top: 80px;
     }
 
+    .number__rented-p{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+
     .color{
         text-align: center;
         font-size: 1.1rem;
@@ -1070,9 +1118,11 @@
         margin: auto;
         margin-top: 20px;
     }
-    .photoflex{
+    .photo1flex{
         width: 1000px;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
     /* .small_width{
         width: 480px;
@@ -1243,6 +1293,16 @@
         margin-top: 80px;
     }
 
+    .number__rented-p{
+        color: rgb(29, 159, 214);
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+    }
+
     .color{
         text-align: center;
         font-size: 1.2rem;
@@ -1341,12 +1401,10 @@
             grid-template-columns: 700px 700px;
             gap: 25px;
         }
-        .photoflex{
+        .photo1flex{
             width: 1500px;
-            margin: auto;
             margin-top: 20px;
-            display: grid;
-            grid-template-columns: 700px;
+            display: flex;
             justify-content: center;
         }
         

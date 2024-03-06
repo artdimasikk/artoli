@@ -80,6 +80,29 @@
     main img{
         width: 321px;
     }
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .margaret{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
     .diva a{
         text-decoration: none;
         color: rgb(24, 24, 24);
@@ -93,6 +116,12 @@
     .diva p{
         text-align: center;
         margin-top: 15px;
+    }
+    .diva{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
     }
 
     
@@ -332,6 +361,53 @@
     main img{
         width: 376px;
     }
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .margaret{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+    .diva{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
     .diva a{
         text-decoration: none;
         color: rgb(24, 24, 24);
@@ -576,6 +652,55 @@
     main img{
         width: 700px;
     }
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 1.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+     .margaret{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+    .diva{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
     .diva a{
         text-decoration: none;
         color: rgb(24, 24, 24);
@@ -720,7 +845,6 @@
     .container{
         width: 1000px;
         margin: auto;
-        
     }
     .container h1{
         font-size: 4rem;
@@ -798,11 +922,45 @@
     main{
         margin: auto;
         width: 1000px;
-        padding: 50px;
     }
     main img{
         width: 1000px;
     }
+
+    .margaret{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.3rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+
+
+    .diva{
+        /* width: 900px; */
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+
+
     .diva a{
         text-decoration: none;
         color: rgb(24, 24, 24);
@@ -945,7 +1103,6 @@
     .container{
         width: 1200px;
         margin: auto;
-        /* background: green; */
     }
     .container h1{
         font-size: 5rem;
@@ -1003,8 +1160,41 @@
         padding-top: 50px;
     }
     
-    
+    main{
+        margin: auto;
+        width: 1200px;
+    }
 
+    .margaret{
+        width: 900px;
+        margin: auto;
+        margin-top: 45px;
+    
+    }
+    .margaret img{
+        margin: auto;
+    }
+    .margaret a{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+        font-size: 2.5rem;
+        font-family: serif;
+        text-align: justify;
+        font-style: oblique;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .margaret p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .margaret a:hover{
+        color: rgb(29, 159, 214);
+    }
+
+
+
+    
 
     .diva{
         width: 900px;

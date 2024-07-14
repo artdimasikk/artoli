@@ -11,6 +11,17 @@
         margin: auto;
         
     }
+
+    .warning{
+        text-align: center;
+        font-size: 0.9rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        padding-top: 30px;
+    }
+
     .container h1{
         font-size: 2.5rem;
         color: #f5a386;
@@ -294,6 +305,16 @@
         width: 376px;
         margin: auto;
         
+    }
+
+    .warning{
+        text-align: center;
+        font-size: 1rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        padding-top: 30px;
     }
     .container h1{
         font-size: 3rem;
@@ -590,6 +611,15 @@
         margin: auto;
         
     }
+    .warning{
+        text-align: center;
+        font-size: 1.5rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        padding-top: 30px;
+    }
     .container h1{
         font-size: 3.5rem;
         color: #f5a386;
@@ -874,6 +904,15 @@
         width: 1000px;
         margin: auto;
         
+    }
+    .warning{
+        text-align: center;
+        font-size: 1.7rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        padding-top: 30px;
     }
     .container h1{
         font-size: 4rem;
@@ -1183,6 +1222,15 @@
         width: 1200px;
         margin: auto;
         /* background: green; */
+    }
+    .warning{
+        text-align: center;
+        font-size: 2rem;
+        color: #285a5b;
+        font-style: oblique;
+        font-weight: 600;
+        font-family: serif;
+        padding-top: 30px;
     }
     .container h1{
         font-size: 5rem;
